@@ -1,0 +1,22 @@
+{
+  "name": "markdown-previewer",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "com.markdown-pen.rayhan",
+    "productName": "MarkDown Pen"
+  },
+  "author": "KingRayhan<rayhan095@gmail.com>",
+  "license": "MIT-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-builder": "^19.19.1"
+  }
+}

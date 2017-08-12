@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+  padding: 0;
+}
+#app , html{
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: arial;
+}
+
+.editor , .markPreview , .htmlPreviewer{
+  width: 33.33%;
+  float: left;
+  padding: 1%;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: scroll;
+  position: relative;
+  &:before{
+    content: attr(title);
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    top: -15px;
+    left: -17px;
+    padding: 2px 7px;
+    background: #DDD;
+  }
+}
+.editor{
+  border: 0;
+  background-color: whitesmoke;
+  font-family: 'Monaco', courier, monospace;
+}
+
+.title{
+  margin-left: 15px;
+  h1{
+    margin-bottom: 0;
+  }
+  > p{
+    margin-top: 3px;
+  }
+}

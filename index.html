@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown Pen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div id="app">
+  <div class="title">
+    <h1>Markdown Pen</h1>
+    <p>
+      <b>Total Caracter:</b> {{ charCount }} | <b>Total Words:</b> {{ wordCount }}
+    </p>
+  </div>
+  <textarea class="editor" :value="input" @input="update" title="Mark Editor"></textarea>
+  <div class="htmlPreviewer" title="Html Code">
+    <div>{{compiledMarkdown}}</div>
+  </div>
+  <div class="markPreview" v-html="compiledMarkdown" title="Preview"></div>
+</div>
+
+  <script src='assets/js/vue.min.js'></script>
+  <script src='assets/js/marked.js'></script>
+  <script src='assets/js/lodash.min.js'></script>
+  <script src='assets/js/index.js'></script>
+</body>
+</html>
