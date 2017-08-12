@@ -6,7 +6,7 @@ A simple markdown previewer software for windows pc
 
 **Generate .exe bundle for windows**
 
-```
+```git
 // Clone Repo
 git clone https://github.com/kingRayhan/markdownpen.git
 
