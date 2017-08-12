@@ -1,4 +1,4 @@
-# []9https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon48.png) Markdown Pen
+# [](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon48.png) Markdown Pen
 
 A simple markdown previewer software for windows pc
 
