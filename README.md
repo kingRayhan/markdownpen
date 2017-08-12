@@ -15,5 +15,6 @@ npm install
 
 // build bundle
 build -w
+```
 
 ## [Download](https://github.com/kingRayhan/markdownpen/releases)
