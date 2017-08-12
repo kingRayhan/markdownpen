@@ -7,13 +7,13 @@ A simple markdown previewer software for windows pc
 **Generate .exe bundle for windows**
 
 ```git
-// Clone Repo
+# Clone Repo
 git clone https://github.com/kingRayhan/markdownpen.git
 
-// Install all dependencies
+# Install all dependencies
 npm install
 
-// build bundle
+# build bundle
 build -w
 ```
 
