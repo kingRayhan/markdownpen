@@ -17,4 +17,4 @@ npm install
 build -w
 ```
 
-## [Download](https://github.com/kingRayhan/markdownpen/releases)
+## [Download](https://github.com/kingRayhan/markdownpen/releases) latest release(s)
